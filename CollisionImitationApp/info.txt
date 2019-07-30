@@ -1,0 +1,2 @@
+An app imitating collision between 2 equal-weighted circle-shaped objects;
+There is also an option to control any of the circles by mouse;
