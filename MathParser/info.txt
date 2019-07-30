@@ -1,0 +1,2 @@
+An application parses given mathematical expression (with+-*/()^), stores it in memory as binary tree;
+It also represents it in 3 notations and evaluates;
