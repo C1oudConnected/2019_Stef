@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{7f9786a2-1ebe-4f7f-9cf1-7b155f4c9279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\App">
+      <UniqueIdentifier>{c505c0e0-58c8-4821-a14b-404788c652b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Graphics Engine">
+      <UniqueIdentifier>{72e78d61-0107-42e4-b27e-d0da395fffed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Window Core">
+      <UniqueIdentifier>{8c86eb23-5dc7-4b78-aff1-080296cd87fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Graphics Engine\Engine">
+      <UniqueIdentifier>{c09d3007-86ab-47cb-a637-e9bcaab86363}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Code\App</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreWindow.cpp">
+      <Filter>Source Code\Window Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>Source Code\App</Filter>
+    </ClCompile>
+    <ClCompile Include="GEngine.cpp">
+      <Filter>Source Code\Graphics Engine\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreWindow.h">
+      <Filter>Source Code\Window Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWindow.h">
+      <Filter>Source Code\App</Filter>
+    </ClInclude>
+    <ClInclude Include="GEngine.h">
+      <Filter>Source Code\Graphics Engine\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
