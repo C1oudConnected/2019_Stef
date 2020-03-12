@@ -1,0 +1,2 @@
+Just an imitation of a 3D space and a cube in it via console.
+Parameters are set in a source code for now.
